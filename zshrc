@@ -125,6 +125,8 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 source $HOME/.zsh-amz/p10k-lean.zsh
 
+source $HOME/.zsh-amz/fzf.zsh
+
 alias hg='history | grep'
 
 batdiff() {
