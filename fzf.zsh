@@ -1,8 +1,6 @@
 # Setup fzf
 # ---------
-if [[ ! "$PATH" == */home/amz/.fzf/bin* ]]; then
-  export PATH="${PATH:+${PATH}:}${HOME}/.zsh-amz/fzf/bin"
-fi
+export PATH="${PATH:+${PATH}:}${HOME}/.zsh-amz/fzf/bin"
 
 # Auto-completion
 # ---------------
