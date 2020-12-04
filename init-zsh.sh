@@ -1,2 +1,2 @@
 git submodule update --init --recursive
-fzf/install
+fzf/install --no-key-bindings --no-completion --no-update-rc
