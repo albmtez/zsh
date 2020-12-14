@@ -7,3 +7,7 @@ mv $HOME/.tmux.conf $HOME/.tmux.conf.old
 ln -fs $HOME/.dotfiles/tmux/tmux.conf $HOME/.tmux.conf
 mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.old
 ln -fs $HOME/.dotfiles/nvim/init.vim $HOME/.config/nvim/init.vim
+
+cd $HOME/.dotfiles/tmux/tmux-mem-cpu-load
+cmake .
+make
