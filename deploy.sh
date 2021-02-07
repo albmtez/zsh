@@ -11,3 +11,5 @@ ln -fs $HOME/.dotfiles/nvim/init.vim $HOME/.config/nvim/init.vim
 cd $HOME/.dotfiles/tmux/tmux-mem-cpu-load
 cmake .
 make
+
+ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
