@@ -1,15 +1,3 @@
-syntax enable
-set tabstop=2
-set shiftwidth=2
-set showtabline=2
-set number
-set relativenumber
-set cursorline
-set splitbelow
-set splitright
-
-let mapleader=" "
-
 inoremap <C-i> <Esc>
 
 " Open a file throw the explorer
@@ -68,4 +56,3 @@ nnoremap <silent> <leader>bp :bp<CR>
 nnoremap <silent> <leader>bd :bd<CR>
 " Kill actual buffer
 nnoremap <silent> <leader>bk :bd!<CR>
-

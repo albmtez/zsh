@@ -12,4 +12,10 @@ cd $HOME/.dotfiles/tmux/tmux-mem-cpu-load
 cmake .
 make
 
+mkdir -p $HOME/.config/nvim
+mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.old
+ln -fs $HOME/.dotfiles/init.vim $HOME/.config/nvim/init.vim
+
+pip3 install pynvim
+
 #ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
