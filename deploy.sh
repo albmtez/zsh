@@ -12,4 +12,4 @@ cd $HOME/.dotfiles/tmux/tmux-mem-cpu-load
 cmake .
 make
 
-ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
+#ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
