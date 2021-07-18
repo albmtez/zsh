@@ -1,3 +1,27 @@
+if ! command -v cmake &> /dev/null
+then
+    echo "cmake could not be found, please install it before relaunch the script"
+    exit
+fi
+
+if ! command -v make &> /dev/null
+then
+    echo "make could not be found, please install it before relaunch the script"
+    exit
+fi
+
+if ! command -v pip3 &> /dev/null
+then
+    echo "pip3 could not be found, please install it before relaunch the script"
+    exit
+fi
+
+if ! command -v zsh &> /dev/null
+then
+    echo "zsh could not be found, please install it before relaunch the script"
+    exit
+fi
+
 git submodule update --init --recursive
 fzf/install --no-key-bindings --no-completion --no-update-rc
 
