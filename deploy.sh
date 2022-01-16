@@ -22,6 +22,12 @@ then
     exit
 fi
 
+if ! command -v nvim &> /dev/null
+then
+    echo "nvim could not be found, please install it before relaunch the script"
+    exit
+fi
+
 git submodule update --init --recursive
 fzf/install --no-key-bindings --no-completion --no-update-rc
 
