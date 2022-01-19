@@ -11,6 +11,9 @@ filetype indent on
 " Enable syntax hightlighting
 syntax on
 
+" Mouse enabled
+set mouse=a
+
 " Set tabbing and indentatingand indentating behaviour
 set tabstop=4
 set softtabstop=0
