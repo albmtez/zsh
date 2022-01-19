@@ -207,4 +207,4 @@ nnoremap <C-t> :NERDTreeToggle<CR>
 "  - Plugins key mappings: Tagbar
 " -------------------------------------
 " Tagbar toggle
-nnoremap <silent> <leader>tb :TagbarToggle
+nnoremap <silent> <leader>tb :TagbarToggle<CR>
