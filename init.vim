@@ -140,38 +140,6 @@ nnoremap <silent> <leader>tmh :tabm -1<CR>
 nnoremap <silent> <leader>tml :tabm +1<CR>
 
 " -------------------------------------
-" - Toggle file explorer with C-e
-" -------------------------------------
-let g:netrw_banner = 0
-let g:netrw_liststyle = 3
-let g:netrw_browse_split = 4
-let g:netrw_altv = 1
-let g:netrw_winsize = 25
-
-function! ToggleNetrw()
-    if exists("t:expl_buf_num")
-        let expl_win_num = bufwinnr(t:expl_buf_num)
-        if expl_win_num != -1
-            let cur_win_nr = winnr()
-            exec expl_win_num . 'wincmd w'
-            close
-            exec cur_win_nr . 'wincmd w'
-            unlet t:expl_buf_num
-        else
-            unlet t:expl_buf_num
-        endif
-    else
-        exec '1wincmd w'
-        Vexplore
-        let t:expl_buf_num = bufnr("%")
-    endif
-endfunction
-
-noremap <silent> <leader>e :call ToggleNetrw()<CR>
-
-let g:netrw_altv = 1
-
-" -------------------------------------
 " - Plugins
 " -------------------------------------
 let data_dir = has('nvim') ? stdpath('data') . '/site' : '~/.vim'
@@ -184,6 +152,8 @@ call plug#begin('~/.vim/plugged')
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+"NERDTree
+Plug 'https://github.com/preservim/nerdtree'
 " Surround
 "Plug 'tpope/vim-surround'
 " Insert cursor
@@ -214,3 +184,16 @@ let g:airline_theme = 'onedark'
 
 " Always show tabs
 set showtabline=2
+
+" -------------------------------------
+" - Plugins key mappings: NERDTree
+" -------------------------------------
+" NERDTree focus
+nnoremap <silent> <leader>f :NERDTreeFocus<CR>
+nnoremap <C-f> :NERDTreeFocus<CR>
+" NERDTree launch
+nnoremap <silent> <leader>n :NERDTree<CR>
+nnoremap <C-n> :NERDTree<CR>
+" NERDTree focus
+nnoremap <silent> <leader>t :NERDTreeToggle<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
