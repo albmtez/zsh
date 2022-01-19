@@ -155,8 +155,10 @@ call plug#begin('~/.vim/plugged')
 " Airline
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-"NERDTree
+" NERDTree
 Plug 'https://github.com/preservim/nerdtree'
+" Tagbar
+Plug 'https://github.com/preservim/tagbar'
 " Surround
 "Plug 'tpope/vim-surround'
 " Insert cursor
@@ -200,3 +202,9 @@ nnoremap <C-n> :NERDTree<CR>
 " NERDTree focus
 nnoremap <silent> <leader>t :NERDTreeToggle<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+" -------------------------------------
+"  - Plugins key mappings: Tagbar
+" -------------------------------------
+" Tagbar toggle
+nnoremap <silent> <leader>tb :TagbarToggle
