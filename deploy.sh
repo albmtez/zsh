@@ -46,6 +46,9 @@ mkdir -p $HOME/.config/nvim
 mv $HOME/.config/nvim/init.vim $HOME/.config/nvim/init.vim.old
 ln -fs $HOME/.dotfiles/init.vim $HOME/.config/nvim/init.vim
 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
 pip3 install pynvim
 
 #ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
