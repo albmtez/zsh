@@ -79,24 +79,26 @@ ZSH_CUSTOM=$DOTFILES/zsh/custom
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
          sudo
-	 autojump
-	 zsh-syntax-highlighting
-	 zsh-autosuggestions
-	 chucknorris
-	 colored-man-pages
-	 colorize
+	 	 autojump
+	 	 zsh-syntax-highlighting
+	 	 zsh-autosuggestions
+	     chucknorris
+	     colored-man-pages
+	     colorize
          docker
          docker-compose
-	 golang
-	 kubectl
-	 mosh
-	 pylint
-	 vagrant
-	 terraform
-	 minikube
-	 gcloud
-	 aws
- 	 helm)
+	     golang
+	     kubectl
+	     mosh
+	     pylint
+	     vagrant
+	     terraform
+	     minikube
+	     gcloud
+	     aws
+ 	     helm
+         pyenv
+         nvm)
 
 source $ZSH/oh-my-zsh.sh
 
