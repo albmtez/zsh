@@ -2,7 +2,7 @@
 
 Dotfiles.
 
-- zsh customized using oh my zsh!
+- zsh customized using oh my zsh! + powerlevel10k
 - vim configuration
 - tmux
 - added fzf
