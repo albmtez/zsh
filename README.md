@@ -1,3 +1,24 @@
-Install vim.plug:
+# dotfiles
 
-https://github.com/junegunn/vim-plug
+Dotfiles.
+
+- zsh customized using oh my zsh!
+- vim configuration
+- tmux
+- added fzf
+- terminator configuration
+
+## Changelog
+
+### v0.1.0
+
+First release.
+
+|module|version|repo|
+|------|-------|----|
+|fzf|0.24.3-19|https://github.com/junegunn/fzf|
+|tmux-mem-cpu-load|v3.4.0-25|https://github.com/thewtex/tmux-mem-cpu-load|
+|zsh-autosuggestions|v0.6.4|https://github.com/zsh-users/zsh-autosuggestions|
+|zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-43|https://github.com/zsh-users/zsh-syntax-highlighting|
+|powerlevel10k|v1.14.4-5|https://github.com/romkatv/powerlevel10k|
+|oh-my-zsh|commit 1ac40cd4|https://github.com/ohmyzsh/ohmyzsh|
