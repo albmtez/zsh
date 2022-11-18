@@ -12,7 +12,7 @@ echo "OS platform detected: $PLATFORM $DISTRO ($ARCH)"
 
 if [ "$PLATFORM" = "linux" ]; then
     if [ "$DISTRO" = "Debian" ] || [ "$DISTRO" = "Ubuntu" ]; then
-        sudo apt -y install cmake make zsh neovim python3-pip autojump fortune curl
+        sudo apt -y install cmake make zsh neovim tmux python3-pip autojump fortune curl
     fi
 fi
 
