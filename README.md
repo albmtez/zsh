@@ -12,8 +12,8 @@ Dotfiles.
 
 ### v0.3.0
 
-- Enhance install script
-- Update versions
+- Install script.
+- Update submodules versions.
 
 |module|version|repo|
 |------|-------|----|
