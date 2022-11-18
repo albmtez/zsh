@@ -1,3 +1,5 @@
+#!/bin/sh
+
 git pull --recurse-submodules
 
 fzf/install --no-key-bindings --no-completion --no-update-rc
