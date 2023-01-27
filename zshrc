@@ -4,4 +4,4 @@ source $HOME/.dotfiles/zsh/zshrc
 export PATH=$PATH:$HOME/scripts
 
 # Add user development configuration from dev_profile file
-source $HOME/dev/dev_profile
+source $HOME/dev_env/dev_profile
