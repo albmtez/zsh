@@ -98,7 +98,8 @@ plugins=(git
 	     aws
  	     helm
          pyenv
-         nvm)
+         nvm
+		 gh)
 
 source $ZSH/oh-my-zsh.sh
 
