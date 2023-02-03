@@ -10,7 +10,7 @@ Dotfiles.
 
 ## Changelog
 
-### v0.4.1
+### v0.5.0
 
 - Add init and update scripts to manage git modules
 - Oh-my-zsh gh plugin added
