@@ -43,6 +43,7 @@ pip3 install pynvim chuck-says
 
 if [ "$PLATFORM" = "linux" ]; then
     if [ "$DISTRO" = "Debian" ] || [ "$DISTRO" = "Ubuntu" ]; then
+        [[ ! -d $HOME/.config/terminator ]] && mkdir -p $HOME/.dotfile/terminator
         ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
     fi
 fi

@@ -10,6 +10,19 @@ Dotfiles.
 
 ## Changelog
 
+### v0.5.1 SNAPSHOT
+
+- Create terminator directory if not exists
+
+|module|version|repo|
+|------|-------|----|
+|fzf|0.37.0-6|https://github.com/junegunn/fzf|
+|tmux-mem-cpu-load|v3.4.0-64|https://github.com/thewtex/tmux-mem-cpu-load|
+|zsh-autosuggestions|v0.7.0|https://github.com/zsh-users/zsh-autosuggestions|
+|zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-71|https://github.com/zsh-users/zsh-syntax-highlighting|
+|powerlevel10k|v1.17.0-5|https://github.com/romkatv/powerlevel10k|
+|oh-my-zsh|commit e55e3f0f|https://github.com/ohmyzsh/ohmyzsh|
+
 ### v0.5.0
 
 - Add init and update scripts to manage git modules
