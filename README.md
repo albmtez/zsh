@@ -13,15 +13,17 @@ Dotfiles.
 ### v0.5.1 SNAPSHOT
 
 - Create terminator directory if not exists
+- Fixed terminator configuration
+- Git modules updated
 
 |module|version|repo|
 |------|-------|----|
-|fzf|0.37.0-6|https://github.com/junegunn/fzf|
-|tmux-mem-cpu-load|v3.4.0-64|https://github.com/thewtex/tmux-mem-cpu-load|
+|fzf|0.38.0-7|https://github.com/junegunn/fzf|
+|tmux-mem-cpu-load|v3.4.0-74|https://github.com/thewtex/tmux-mem-cpu-load|
 |zsh-autosuggestions|v0.7.0|https://github.com/zsh-users/zsh-autosuggestions|
-|zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-71|https://github.com/zsh-users/zsh-syntax-highlighting|
-|powerlevel10k|v1.17.0-5|https://github.com/romkatv/powerlevel10k|
-|oh-my-zsh|commit e55e3f0f|https://github.com/ohmyzsh/ohmyzsh|
+|zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-73|https://github.com/zsh-users/zsh-syntax-highlighting|
+|powerlevel10k|v1.17.0-13|https://github.com/romkatv/powerlevel10k|
+|oh-my-zsh|commit 3c34dd82|https://github.com/ohmyzsh/ohmyzsh|
 
 ### v0.5.0
 
