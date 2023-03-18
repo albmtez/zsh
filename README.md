@@ -23,7 +23,7 @@ Dotfiles.
 |zsh-autosuggestions|v0.7.0|https://github.com/zsh-users/zsh-autosuggestions|
 |zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-73|https://github.com/zsh-users/zsh-syntax-highlighting|
 |powerlevel10k|v1.17.0-13|https://github.com/romkatv/powerlevel10k|
-|oh-my-zsh|commit 3c34dd82|https://github.com/ohmyzsh/ohmyzsh|
+|oh-my-zsh|commit 72732a22|https://github.com/ohmyzsh/ohmyzsh|
 
 ### v0.5.0
 
