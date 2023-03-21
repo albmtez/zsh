@@ -14,7 +14,7 @@ echo "OS platform detected: $PLATFORM $DISTRO ($ARCH)"
 
 if [ "$PLATFORM" = "linux" ]; then
     if [ "$DISTRO" = "Debian" ] || [ "$DISTRO" = "Ubuntu" ]; then
-        sudo apt -y install cmake make zsh neovim tmux python3-pip autojump fortune curl
+        sudo apt -y install cmake make zsh neovim tmux python3-pip autojump fortune curl python3-pynvim
     fi
 fi
 
@@ -39,11 +39,9 @@ ln -fs $HOME/.dotfiles/init.vim $HOME/.config/nvim/init.vim
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 
-pip3 install pynvim chuck-says
-
 if [ "$PLATFORM" = "linux" ]; then
     if [ "$DISTRO" = "Debian" ] || [ "$DISTRO" = "Ubuntu" ]; then
-        [[ ! -d $HOME/.config/terminator ]] && mkdir -p $HOME/.config/terminator
+        mkdir -p $HOME/.config/terminator
         ln -fs $HOME/.dotfiles/terminator/config $HOME/.config/terminator/config
     fi
 fi

@@ -14,6 +14,7 @@ Dotfiles.
 
 - Create terminator directory if not exists
 - Fixed terminator configuration
+- Fixed install_dotfiles.sh script
 - Git modules updated
 
 |module|version|repo|
