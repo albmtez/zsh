@@ -1,6 +1,6 @@
 [global_config]
-title_transmit_bg_color = "#32592d"
-title_inactive_bg_color = "#0a3a04"
+title_transmit_bg_color = "#0d36d0"
+title_inactive_bg_color = "#0a2f79"
 [keybindings]
 [profiles]
   [[default]]
