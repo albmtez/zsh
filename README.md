@@ -14,7 +14,8 @@ Dotfiles.
 
 - Create terminator directory if not exists
 - Fixed terminator configuration
-- Fixed install_dotfiles.sh script
+- Fixed install_dotfiles.sh 
+- Dev profile only loaded if installed
 - Git modules updated
 
 |module|version|repo|
