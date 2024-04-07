@@ -20,12 +20,12 @@ Dotfiles.
 
 |module|version|repo|
 |------|-------|----|
-|fzf|0.43.0-15|https://github.com/junegunn/fzf|
-|tmux-mem-cpu-load|v3.7.0-19|https://github.com/thewtex/tmux-mem-cpu-load|
+|fzf|0.49.0-2|https://github.com/junegunn/fzf|
+|tmux-mem-cpu-load|v3.7.0-25|https://github.com/thewtex/tmux-mem-cpu-load|
 |zsh-autosuggestions|v0.7.0-12|https://github.com/zsh-users/zsh-autosuggestions|
-|zsh-syntax-highlighting|0.8.0-alpha1-pre-redrawhook-78|https://github.com/zsh-users/zsh-syntax-highlighting|
-|powerlevel10k|v1.18.0-73|https://github.com/romkatv/powerlevel10k|
-|oh-my-zsh|commit 048455c|https://github.com/ohmyzsh/ohmyzsh|
+|zsh-syntax-highlighting|0.8.0-2|https://github.com/zsh-users/zsh-syntax-highlighting|
+|powerlevel10k|v1.20.0-52|https://github.com/romkatv/powerlevel10k|
+|oh-my-zsh|commit bf713e2c|https://github.com/ohmyzsh/ohmyzsh|
 
 ### v0.5.0
 
